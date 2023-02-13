@@ -7,7 +7,7 @@ class GalaxiteServer {
 
   constructor(options = {}) {
     this.options = new ServerOptions(options);
-    this.routes = [];
+    this.routes = ();
     this.middlewares = [];
   }
 
